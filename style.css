@@ -3,7 +3,21 @@ body {
   font-weight: 300;
   background: url(linedpaper.png) repeat;
 }
+img {
+	width: 200px;
+	border: 3px solid gray;
+}
 #wrapper {
   width: 960px;
   margin: 20px auto;
+}
+/*Making the h1 red*/
+h1 {
+	color: #80628C;
+}
+h4 {
+	text-decoration: underline
+}
+."job"{
+	font: italic;
 }
