@@ -18,6 +18,9 @@ h1 {
 h4 {
 	text-decoration: underline
 }
-."job"{
-	font: italic;
+.job{
+	font-style: italic;
+}
+h5{
+	margin: 3pt 3pt 3pt 3pt
 }
