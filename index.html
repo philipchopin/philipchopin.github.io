@@ -1,109 +1,306 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 <head>
-  <title>Bootstrap Me</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Articulate</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fonts from Font Awsome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Magnific popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Vegas slider -->
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Color styles -->
+    <link rel="stylesheet" href="css/colors/blue.css">
+    <!-- <link rel="stylesheet" href="css/colors/yellow.css">-->
+    <!-- <link rel="stylesheet" href="css/colors/red.css">-->
+    <!--  <link rel="stylesheet" href="css/colors/purple.css">-->
+    <!--  <link rel="stylesheet" href="css/colors/orange.css">-->
+    <!--  <link rel="stylesheet" href="css/colors/green.css">-->
+
+    <!-- Feature detection -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
 </head>
+
 <body>
-<div class="container"><ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="funkyformatting">CONNECT WITH ME</a></li>
-  <li role="presentation"><a class="btn btn-success" href="mailto:philipchopin@gmail.com">Email <i class="fa fa-envelope"></i></a></li>
-  <li role="presentation"><a class="btn btn-primary" href="https://www.linkedin.com/in/philipchopin">Linkedin <i class="fa fa-linkedin-square"></i> </a></li>
-</ul>     
-    <div class="jumbotron">
-       <div class="row">
-       <div class="col-md-4"> 
-        <p>
-          <img src="photophilipkellogg.png">
-        </p>
-       </div> 
-       <div class="col-md-8"> 
-        <h1>Philip Chopin</h1>
-        <h2>Kellogg MBA Student - Marseille, France</h2>
-          <h4>SUMMARY</h4>
-             <h5>
-             Philip is currently an MBA student at Kellogg School of Management. Before Kellogg, Philip worked for The Boston Consulting Group in the Mexico City and Montreal offices. In his free time, he likes to ski, surf, windsurf and watch vintage movies at home or with friends
-             </h5>
-       </div>
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" id="main-menu">
+                    <li><a href="#page-welcome">Home</a>
+                    </li>
+                    <li><a href="#page-profile">Summary</a>
+                    </li>
+                    <li><a href="#page-education">Education</a>
+                    </li>
+                    <li><a href="#page-experience">Experience</a>
+                    </li>
+                    <li><a href="#page-additionalinfo">Additional Data</a>
+                    </li>
+                    <li><a href="#page-contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
     </div>
-    </div>   
-        <div class="row">
-        <div class="col-sm-4 col-md-4"> 
-          <h4>EDUCATION</h4>
-             <p><h5>KELLOGG SCHOOL OF MANAGEMENT</h5>
-             <h5 class="job">Candidate for Master of Business Administration degree (June 2016)
-             </h5></p>
-             <p><h5>LONDON BUSINESS SCHOOL</h5>
-             <h5 class="job">Exchange Student (2016)
-             <h5></p>
-             <p><h5>GRENOBLE ECOLE DE MANAGEMENT</h5>
-             <h5 class="job">Master of Science in Management (June 2011)</h5></p>
-             <p><h5>SINGAPORE MANAGEMENT UNIVERSITY</h5>
-             <h5 class="job">Exchange Student (2009)</h5></p>
-             <iframe width="350" height="236" src="https://www.youtube.com/embed/OTK9c72u97A" frameborder="0" allowfullscreen></iframe>
+    <!-- welcome begins -->
+    <section id="page-welcome" class="page-welcome">
+        <div>
+            <ul class="slider-controls">
+                <li>
+                    <a id="vegas-next" class="next" href="javascript:void(0)"></a>
+                </li>
+                <li>
+                    <a id="vegas-prev" class="prev" href="javascript:void(0)"></a>
+                </li>
+            </ul>
         </div>
-        <div class="col-sm-8 col-md-6">
-          <h4>EXPERIENCE</h4>
-             <p><h5>THE BOSTON CONSULTING GROUP</h5>
-             <h5 class="job">Consultant - Montreal, Canada (2013 – 2015)</h5></p>
-             <ul>
-                <h6>
-                <li>Executed negotiation strategy for the CEO and board of a $6B company in order to prepare them for a potential deregulation of their industry – acted as Project leader of the BCG team</li>
-                <li>Evaluated global strategic options for a pension fund planning to open eight new foreign offices by 2018</li>
-                <li>Identified $100M cost savings for a major telecommunications company, as part of a confidential support</li>
-                <li>Created new strategy for a US tire manufacturer, leading to a forecasted sales increase of $2.6B by 2020</li>
-                <h6>
-             </ul>
-             <p><h5>THE BOSTON CONSULTING GROUP</h5>
-             <h5 class="job">Associate - Mexico City, Mexico (2011 – 2013) </h5></p>
-             <ul>
-                <h6>
-                <li>First Associate in the Mexico office fast-tracked to Consultant based on performance</li>
-                <li>Developed a transformation strategy for a retail bank in Latin America, incremental revenue: $200M</li>
-                <li>Drove cost savings of $0.5B for an international bank, identified initiatives with a growth potential of $1.2B</li>
-                <li>Defined a target location strategy for a global bank, resulting in a net run-rate savings of ~$30M</li>
-                <li>Orchestrated restructuring and delayering of a retail bank, identifying ~$12M in run-rate savings </li>
-                <li>Designed a 4-year strategic plan for Save the Children, and prepared materials for the upcoming G20 Summit</li>
-                <h6>
-             </ul>
-             <p><h5>ACCENTURE</h5>
-             <h5 class="job">Junior Consultant - Paris, France (2010) </h5></p>
-             <ul>
-                <h6>
-                <li>Researched and controlled anomalies for the team management as part of the largest SAP project globally (35,000 users when fully deployed), eliminated unmonitored messages, improved resolution time by ~20% </li>
-                <li>Developed a guide to optimize exchanges among Accenture, other consulting teams and the client</li>
-                <h6>
-             </ul>
-             <p><h5>PRICEWATERHOUSECOOPERS</h5>
-             <h5 class="job">Junior Auditor - Marseille, France (2009) </h5></p>
-             <ul>
-                <h6>
-                <li>Participated in 8 audits: reviewed fixed assets, treasury, cash, accounts receivables and payables  </li>
-                <li>Supervised 8 physical inventory audits, which led to accurate evaluation of the companies' fixed assets </li>
-                <h6>
-             </ul>
-             <p><h5>7e BOULEVART - Association which promotes film culture in the city</h5>
-             <h5 class="job">Founder and President - Grenoble, France (2007-2010) </h5></p>
-             <ul>
-                <h6>
-                <li>Recruited and directed a 30-member team, which organized cultural events in Grenoble. Within two years, the association became the largest artistic association in the school and the third in the city</li>
-                <h6>
-             </ul>
+        <div class="container">
+            <div class="row">
+                <header class="centered">
+                    <h1>Philip Chopin</h1>
+                    <p>Kellogg MBA student</p>
+                </header>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/philip.chopin.7" class="btn btn-round btn-clear btn-facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/philipchopin" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
+                </div>
+                <a href="#page-contact" class="btn btn-default hire-me">Contact Me</a>
+            </div>
         </div>
-        <div class="hidden-sm col-md-2">
-          <h4>ADDITIONAL DATA</h4>
-             <p><h5>LANGUAGES</h5>
-             <h5 class="job">Fluent in English, French, and Spanish</h5></p>
-             <p><h5>HOBBIES</h5>
-             <h5 class="job">Enjoy skiing, surfing, squash. Passionate about film-making. Travelled to 41 different countries</h5></p>
-             <p><h5>SOCIAL INVOLVMENT</h5>
-             <h5 class="job">Mentored young students in low-income communities as part of Pathways program</h5></p>
+    </section>
+    <!-- welcome ends -->
+    <!-- profile begins -->
+    <section id="page-profile" class="page-profile">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">Summary</h2>
+                <div class="spacer"></div>
+                <p class="section-subtitle"> </p>
+            </header>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="profile"><img src="img/philipchopin.jpg" alt="profile" />
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <p>I am passionate about different cultures, growth strategies and innovative business models. I have worked extensively overseas, as part of the BCG Mexico City and Montreal offices. Over 4 years, I participated in ~15 assignments in the Financial Services, Telecommunications and Consumer Goods sectors. In Mexico City, I was the first Associate promoted to Consultant in 24 months and I most recently acted as a Project Leader in Montreal.</p>
+                    <p> I am currently pursuing my MBA at Kellogg School of Management, where I am focusing on Entrepreneurship, early-stage start-ups and Venture Capital. Lately, I worked on Augmented and Virtual Reality, and I am excited about the next 6-9 months where we will see the mass release of many VR headsets.</p>
+                    <p>I am also passionate about movies and entertainment. From 2009 to 2011, I founded and lead an association to promote vintage movies in Grenoble (France) – our team screened and debated over classic movies like Annie Hall, Blade Runner, Taxi Driver or even The Rocky Horror Picture Show.</p>
+                    <p>I am trilingual and I am known for bringing broad perspectives to the table, being practical and solutions-oriented, and for loving to work with teams of different backgrounds, seniority and cultures. I consider myself a world citizen, I lived in ~15 different cities on 5 different continents, travelled to 45+ countries and I have strong networks in Europe, the United States, Latin America and South-East Asia.</p>
+                </div>
+            </div>
         </div>
-     </div>
+    </section>
+    <!-- profile ends -->
+    <!-- education begins -->
+    <section id="page-education" class="page-education">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title"><span>Education</span></h2>
+                <div class="spacer"></div>
+                <p class="section-subtitle"></p>
+            </header>
+            <div class="row">
+                <div class="col-md-12">
+                    <article class="education">
+                        <header>
+                            <center><h3>Kellogg School of Management</h3></center>
+                            <center><p>Candidate for Master of Business Administration degree - 2016 </center>
+                        </header>
+                    </article>
+                </div>
+                <div class="col-md-12">
+                    <article class="education">
+                        <header>
+                            <center><h3>London Business School</h3></center>
+                            <center><p>MBA Exchange Student - 2016 </center>
+                        </header>
+                    </article>
+                </div>
+                <div class="col-md-12">
+                    <article class="education">
+                        <header>
+                            <center><h3>Grenoble Graduate School of Business</h3></center>
+                            <center><p>Master of Science in Management - 2011</p></center>
+                        </header>
+                    </article>
+                </div>
+                <div class="col-md-12">
+                    <article class="education">
+                        <header>
+                            <center><h3>Singapore Management University</h3></center>
+                            <center><p>Exchange student - 2009 </center>
+                        </header>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- education ends -->
+    <!-- experience begins -->
+    <section id="page-experience" class="page-experience">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title"><span>Experience</span></h2>
+                <div class="spacer"></div>
+                <p class="section-subtitle"></p>
+            </header>
+            <div class="row">
+                <div class="col-md-12">
+                    <article class="experience">
+                        <header>
+                            <center><h3>The Boston Consulting Group</h3></center>
+                            <center><p>Consultant / Montreal, Canada / 2013 - 2015</p></center>
+                        </header>
+                    </article>
+                </div>
+            <div class="col-md-12">
+                    <article class="experience">
+                        <header>
+                            <center><h3>The Boston Consulting Group</h3></center>
+                            <center><p>Associate / Mexico City, Mexico / 2011 - 2013</p></center>
+                        </header>
+                    </article>
+                </div>
+             <div class="col-md-12">
+                    <article class="experience">
+                        <header>
+                            <center><h3>Accenture</h3></center>
+                            <center><p>Junior Consultant / Paris, France / 2010</p></center>
+                        </header>
+                    </article>
+                </div>
+             <div class="col-md-12">
+                    <article class="experience">
+                        <header>
+                            <center><h3>PricewaterhouseCoopers</h3></center>
+                            <center><p>Junior Auditor / Marseille, France / 2009</p></center>
+                        </header>
+                    </article>
+                </div>
+             <div class="col-md-12">
+                    <article class="experience">
+                        <header>
+                            <center><h3>7e BoulevArt</h3></center>
+                            <center><p>Founder and President / Grenoble, France / 2007-2010</p></center>
+                          <center><p>Association which promotes film culture in the city</p></center>
+                        </header>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- experience ends -->
+      <!-- additional info -->
+    <section id="page-additionalinfo" class="page-additionalinfo">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title"><span>Additional Data</span></h2>
+                <div class="spacer"></div>
+                <p class="section-subtitle"></p>
+            </header>
+            <div class="row">
+                <div class="col-md-12">
+                    <article class="experience">
+                        <header>
+                            <center><h3>Languages</h3></center>
+                            <center><p>Fluent in English, French, and Spanish</p></center>
+                        </header>
+                    </article>
+                </div>
+            <div class="col-md-12">
+                    <article class="experience">
+                        <header>
+                            <center><h3>Hobbies</h3></center>
+                            <center><p>Enjoy skiing, surfing, squash. Passionate about film-making. Travelled to 45+ different countries</p></center>
+                        </header>
+                    </article>
+                </div>
+             <div class="col-md-12">
+                    <article class="experience">
+                        <header>
+                            <center><h3>Social Involment</h3></center>
+                            <center><p>Mentored young students in low-income communities as part of Pathways program</p></center>
+                        </header>
+                    </article>
+            </div>
+        </div>
+    </section>
+    <!-- additional info -->
+    <!-- contact begins -->
+    <section id="page-contact" class="page-contact">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title"><span>Contact</span></h2>
+                <div class="spacer"></div>
+                <p class="section-subtitle"></p>
+            </header>
+            <div class="row">
+                <div class="col-sm-12 contact-info">
+                    <center><p><i class="fa fa-map-marker"></i> 1890 Maple Avenue, Unit 1404E, Evanston, IL 60201 </p></center>
+                    <center><p><i class="fa fa-phone"></i> (847) 387-2407</p></center>
+                    <center><p><i class="fa fa-envelope-o"></i> pchopin2016@kellogg.northwestern.edu</a></p></center>
+                </div>
+                    <!-- End contact-form -->
+                </div>
+            </div>
+            <!-- End row -->
+
+        </div>
+    </section>
+    <!-- contact ends -->
+
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/vegas.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/main.js"></script>
+	
 </body>
+
 </html>
